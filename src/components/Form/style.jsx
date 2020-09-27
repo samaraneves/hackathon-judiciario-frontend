@@ -11,6 +11,7 @@ export const DropzoneWrapper = styled.div`
             font-family: var(--font-family)!important;
             color: #494949;
             text-decoration: underline;
+            font-size: 2rem;
         }
 `;
 export const Form =styled.form`
@@ -32,4 +33,8 @@ export const Form =styled.form`
     -ms-flex-pack: center;
     justify-content: center;
     margin: 0 auto;
+
+    h2{
+        margin: 2rem 0 2rem 0;
+    }
 `;

@@ -5,8 +5,8 @@ import {StylesGlobal} from './components/StylesGlobal'
 function App() {
   return (
     <>
-      <StylesGlobal/>
-      <Routes/>
+        <StylesGlobal/>
+        <Routes/>
     </>
   )
 }

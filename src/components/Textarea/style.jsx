@@ -20,7 +20,7 @@ export const Textarea = styled.textarea`
     width: 100%;
     height: 50vh;
     padding: 2rem;
-    margin: 2rem 0 2rem 0;
+    margin: 0 0 2rem 0;
     font-family: var(--font-family);
     font-size: 1.6rem;
     &::placeholder{

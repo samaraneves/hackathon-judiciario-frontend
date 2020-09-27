@@ -7,20 +7,24 @@ import 'react-dropzone-uploader/dist/styles.css'
 import Dropzone from 'react-dropzone-uploader'
 
 export default props => {
+
     return(
         <Form method="POST" onSubmit="{}">
-                <Input 
+                <Input
+                    for="upload"
+                    id="upload" 
                     type="file" 
                     accept=".pdf, .doc,.txt,.docx"
+                    textLabel="Clique para escolher um arquivo do computador"
                 />
             <h2>Ou</h2>
             <DropzoneWrapper>
-                <Dropzone
-                    accept=".pdf, .doc,.txt,.docx"
-                />
+            <Dropzone 
+                inputContent={(files, extra) => (extra.reject ? 'Arquivos de imagem, áudio e vídeo apenas' : 'Clique ou Arraste seus arquivos aqui')} 
+            />
             </DropzoneWrapper>
             <h2>Cole aqui o seu texto:</h2>
-                <Textarea/>
+                <Textarea name="text"/>
                 <Button
                     type="submit"
                     text="Traduzir"

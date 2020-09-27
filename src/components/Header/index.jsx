@@ -9,7 +9,7 @@ export default props =>{
         <Image
             src={Logo}
             alt={"Ju Traduz AI logo"}
-            maxWidth={"50rem"}
+            maxWidth={"30rem"}
         />
         {props.children}
     </Header>
