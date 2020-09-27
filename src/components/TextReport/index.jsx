@@ -4,7 +4,7 @@ import {TextReport} from './style'
 export default props =>{
     return(
         <TextReport>
-            {props.textReport}
+            <p>{props.children}</p>
         </TextReport>
     )
 }

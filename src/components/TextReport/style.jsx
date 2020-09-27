@@ -8,4 +8,6 @@ export const TextReport = styled.div`
     padding: 2rem;
     background-color: #fdfdfd;
     border: 1px solid var(--gray-light);
+    line-height: 3.5rem;
+    text-align: justify;
 `;

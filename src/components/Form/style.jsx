@@ -10,6 +10,7 @@ export const DropzoneWrapper = styled.div`
         div label {
             font-family: var(--font-family)!important;
             color: #494949;
+            text-decoration: underline;
         }
 `;
 export const Form =styled.form`
