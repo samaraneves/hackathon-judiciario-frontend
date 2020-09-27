@@ -3,6 +3,14 @@ import styled from 'styled-components'
 export const DropzoneWrapper = styled.div`
     border: 1px solid var(--gray-light);
     width: 100%;
+    border-radius: 1rem;
+        div {
+            border: 0;
+        }
+        div label {
+            font-family: var(--font-family)!important;
+            color: #494949;
+        }
 `;
 export const Form =styled.form`
     width: 100%;
