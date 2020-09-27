@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const DropzoneWrapper = styled.div`
     border: 1px solid var(--gray-light);
+    width: 100%;
 `;
 export const Form =styled.form`
     width: 100%;

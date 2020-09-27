@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Header = styled.header`
     background-color: #fff;
-    box-shadow: 1rem 0 0.5rem #494949;
+    box-shadow: 0 0 0.5rem #494949;
     height: 10rem;
     display: -webkit-box;
     display: -ms-flexbox;
