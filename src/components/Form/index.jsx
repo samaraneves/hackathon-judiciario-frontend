@@ -5,21 +5,24 @@ import Textarea from '../Textarea/index'
 import Button from '../Button/index'
 import 'react-dropzone-uploader/dist/styles.css'
 import Dropzone from 'react-dropzone-uploader'
+import { Redirect } from 'react-router-dom'
 
 export default props => {
     const [userText, setUserText] = useState('');
+    const { history } = props;
 
     async function searchUser(event) {
         event.preventDefault();
         console.log(userText)
-
+        history.push("/Report")
     }
 
 
     return (
+
         <Form method="POST" onSubmit={searchUser}>
             <Input
-                for="upload"
+                htmlFor="upload"
                 id="upload"
                 type="file"
                 accept=".pdf, .doc,.txt,.docx"

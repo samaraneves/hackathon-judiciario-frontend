@@ -7,7 +7,7 @@ export default props => {
     return (
         <>
             <Header />
-            <Form />
+            <Form history={props.history} />
         </>
     )
 }
