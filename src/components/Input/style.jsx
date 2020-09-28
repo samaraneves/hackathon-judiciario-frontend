@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Label = styled.label`
     position: relative;
-    background-color: var(--violet);
+    background-color: var(--colorCentral);
     color: #fff;
     height: 5rem;
     border-radius: 1rem;
@@ -16,6 +16,9 @@ export const Label = styled.label`
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    @media(max-width: 1000px){
+        text-align: center;
+    }
 `;
 export const InputWrapper = styled.div`
     width: 100%;

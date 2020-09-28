@@ -31,20 +31,20 @@ export default props => {
                 accept=".pdf, .doc,.txt,.docx"
                 textLabel="Clique para escolher um arquivo do computador"
             />
-            <h2>Ou</h2>
+            <h2>Se preferir...</h2>
             <DropzoneWrapper>
                 <Dropzone
-                    inputContent={(files, extra) => (extra.reject ? 'Arquivos de imagem, áudio e vídeo apenas' : 'Clique ou Arraste seus arquivos aqui')}
+                    inputContent={(files, extra) => (extra.reject ? 'Arquivos de imagem, áudio e vídeo apenas' : 'Arraste seus arquivos aqui')}
                 />
             </DropzoneWrapper>
-            <h2>Cole aqui o seu texto:</h2>
+            <h2>Ou cole aqui o seu texto:</h2>
             <Textarea
                 onChange={(e) => setUserText(e.target.value)}
 
             />
             <Button
                 type="submit"
-                text="Traduzir"
+                text="Ju, Traduz AI, por favor!"
             />
         </Form>
     )

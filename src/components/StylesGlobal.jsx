@@ -7,7 +7,7 @@ export const Global = createGlobalStyle`
   :root {
     font-size: 62.5%;
     --white: #fff;
-    --violet: #D96B9F;
+    --colorCentral: #e96c36;
     --medium-light: 300;
     --large-medium: 500;
     --large-bold:700;

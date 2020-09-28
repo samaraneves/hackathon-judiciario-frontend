@@ -17,14 +17,13 @@ export const ButtonWrapper = styled.div`
 export const Button = styled.button`
     width: 100%;
     padding: 1.5rem;
-    background-color: #a52367;
-    color: #fff;
+    background-color: #f5ccb6;
+    color: inherit;
     font-size: 1.3rem;
     border-radius: 1rem;
-    border-bottom: 2px solid #000;
+    border: 1px solid #e96c36;
     font-family: var(--font-family);
     font-size: 1.8rem;
-    box-shadow: 0 0.5rem 0.3rem #6a2f5d
 ;
     &:hover,
     &:active,

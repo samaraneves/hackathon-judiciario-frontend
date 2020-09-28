@@ -25,6 +25,6 @@ export const Textarea = styled.textarea`
     font-size: 1.6rem;
     &::placeholder{
         color: var(--gray-dark);
-
+        line-height: 3rem;
     }
 `;
