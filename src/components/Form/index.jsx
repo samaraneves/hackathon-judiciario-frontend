@@ -14,7 +14,10 @@ export default props => {
     async function searchUser(event) {
         event.preventDefault();
         console.log(userText)
-        history.push("/Report")
+        history.push({
+            pathname: '/Report',
+            state: userText
+        })
     }
 
 
