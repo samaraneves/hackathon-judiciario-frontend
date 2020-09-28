@@ -16,6 +16,7 @@ export const Label = styled.label`
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    cursor: pointer;
     @media(max-width: 1000px){
         text-align: center;
     }

@@ -24,6 +24,7 @@ export const Button = styled.button`
     border: 1px solid #e96c36;
     font-family: var(--font-family);
     font-size: 1.8rem;
+    cursor: pointer;
 ;
     &:hover,
     &:active,
