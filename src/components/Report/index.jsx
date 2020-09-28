@@ -3,8 +3,9 @@ import { Report } from './style'
 
 export default props => {
     return (
-        <Report>
-            {props.children}
-        </Report>
+
+        < Report color={props.color} >
+            { props.children}
+        </Report >
     )
 }

@@ -40,10 +40,11 @@ export default () => {
             <TextReport>
                 {array.map((termo) => {
                     let banana = text.split(termo)
-                    for (let i = 0; i < banana.length; i += 2)
+                    for (let i = 0; i < banana.length; i++)
                         return (<>
                             {banana[i]}
-                            <Report>{termo.palavras}</Report>
+                            <Report color={termo.cor.toLowerCase()}>{termo.palavras}</Report>
+                            i++
                             {banana[i + 1]}
                         </>)
 
