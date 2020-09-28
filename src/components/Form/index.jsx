@@ -14,6 +14,8 @@ export default props => {
         console.log(userText)
 
     }
+
+
     return (
         <Form method="POST" onSubmit={searchUser}>
             <Input
